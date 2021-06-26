@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <link rel='stylesheet' href='C:\Users\moham\OneDrive\Desktop\Upgrad_Project\CSS\font.css'>
+      <link rel='stylesheet' href='C:\Users\moham\OneDrive\Desktop\Upgrad_Project\CSS\header.css'>
+      <link rel='stylesheet' href='C:\Users\moham\OneDrive\Desktop\Upgrad_Project\CSS\index.css'>
+
+        <title>Scribbler WebSite</title>
+    </head>
+
+    <body>
+
+        <div class="header">
+        <div class="title"> <a id="Title" class="logo">ScriBBler</a>
+            <p class="tagline">Explore, Imagine, Create</p>
+        </div>
+
+
+        <div class="Buttons">
+          <div><button class="Signin_Buttons" id="signIn">Sign In</button>
+              <div id="myModal" class="modal">
+                  <div class="modal-content">
+                      <span class="close">x</span>
+                      <div class="welcomeBack-form">
+                          <form class="form">
+                              <h1 class="Heading">Welcome Back!</h1>
+                              <hr>
+                              <label class="labelText">Username</label>
+                              <input type="text" placeholder="Enter Username" required>
+                              <label id="password1">Password</label>
+                              <input type="password" placeholder="Enter Password" required>
+                              <button class="Submit_Button">Sign In</button>
+                              <div class="login-form">
+                                  <h5 class="login-h5">Not a member?</h5><span><a class="signup-link" href="#">Sign Up</a></span>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <div><button class="Signin_Buttons" id="signUp">Sign Up</button>
+              <div id="myModal1" class="modal">
+                  <div class="modal-content">
+                      <span class="close">x</span>
+                      <div class="getStarted-form">
+                          <form class="form" id="form">
+                              <h1 class="Heading">Get Started</h1>
+                              <hr>
+                              <label class="labelText">Full Name</label>
+                              <input type="text" placeholder="Enter Full Name" required>
+                              <label class="labelText">Username</label>
+                              <input type="text" placeholder="Enter Username" required>
+                              <label id="password" class="labelText">Password</label>
+                              <input type="password" placeholder="Enter Password" required>
+                              <label class="labelText" id="confirm-password">Confirm Password</label>
+                              <input type="password" placeholder="Confirm Password" required>
+                              <button class="Submit_Button">Sign Up</button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="Button_Post">
+        <div><a href="C:\Users\moham\OneDrive\Desktop\Upgrad_Project\bloglist.html" target="_blank"><button class="Post_Button" id="All_button">All Posts</button></div>
+        <div><button class="Post_Button" id="Create_Button">Create Post</button>
+            <div id="myModal-create" class="modal">
+                <div class="modal-contentPost">
+                    <span class="close">x</span>
+                    <div class="create-form">
+                        <form class="form">
+                            <h1 class="Heading">Pen Your Post</h1>
+                            <label class="Text_label">Title:</label>
+                            <input type="text" class="inputTitle">
+                            <label class="Text_label">Content:</label>
+                            <textarea class="text-area"></textarea>
+                            <button class="modal-Create">Create</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="C:\Users\moham\OneDrive\Desktop\Upgrad_Project\Js\header.js"></script>
+    <script src="C:\Users\moham\OneDrive\Desktop\Upgrad_Project\Js\index.js"></script>
+</body>
+</html>
