@@ -1,7 +1,7 @@
 html {
   background-color: orange;
 }
-/*
+
 .gridpost {
   display: flex;
   flex-wrap: nowrap;
@@ -14,7 +14,7 @@ html {
   padding: 20px;
   background-color: gainsboro;
   align-items: center;
-} */
+} 
 
 h2 {
   margin: 0;
