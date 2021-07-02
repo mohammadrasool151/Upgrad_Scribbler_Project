@@ -2,14 +2,19 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="CSS\font.css">
-    <link rel="stylesheet" href="CSS\header.css">
-    <link rel="stylesheet" href="CSS\bloglist.css">
+    <link rel="stylesheet" href="..\CSS\font.css">
+    <link rel="stylesheet" href="..\CSS\header.css">
+    <link rel="stylesheet" href="..\CSS\bloglist.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/843f31a33f.js" crossorigin="anonymous"></script>
-
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <!-- TODO: Include Font Awesome file here -->
+    <script src="https://use.fontawesome.com/12e84c3aa6.js"></script>
     <!-- TODO: Include Google Fonts file here -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -67,123 +72,145 @@
         </div>
     </div>
 
-  <div class="flex space-x-8 m-8 ">
-    <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-        <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-        <div class="">
-            <p>Srishti Gupta</p>
-        </div>
+    <div class="posts-wrapper">
 
-        <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-            <div class="block text-2xl pb-3 pt-4 ">
-                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+        <!-- post 1 starts here -->
+        <div class="post">
+            <div class="username">
+                <p>Jimi</p>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="title">
+                    <p>Hey there! This is post 1.</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa fa-trash delete-icon" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <p class="content">Jimi Hendrix was arguably the greatest insturmentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
                 <span>
-                    <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i class="fa fa-ellipsis-h dots"></i>
                 </span>
             </div>
-            <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-            <span>
-                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-            </span>
         </div>
-    </div>
-    <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-        <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-        <div class="">
-            <p>Srishti Gupta</p>
-        </div>
+        <!-- post 2 starts here -->
+        <div class="post">
+            <div class="username">
+                <p>Jimi</p>
+            </div>
 
-        <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-            <div class="block text-2xl pb-3 pt-4 ">
-                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+            <div class="content-wrapper">
+                <div class="title">
+                    <p>Hey there! This is post 2.</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa fa-trash delete-icon" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <p class="content">Jimi Hendrix was arguably the greatest insturmentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
                 <span>
-                    <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i class="fa fa-ellipsis-h dots"></i>
                 </span>
             </div>
-            <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-            <span>
-                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-            </span>
         </div>
-    </div>
-    <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-        <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-        <div class="">
-            <p>Srishti Gupta</p>
-        </div>
+        <!-- post 2 ends here -->
 
-        <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-            <div class="block text-2xl pb-3 pt-4 ">
-                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+        <!-- post 3 starts here -->
+        <div class="post">
+            <div class="username">
+                <p>Jimi</p>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="title">
+                    <p>Hey there! This is post 3.</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa fa-trash delete-icon" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <p class="content">Jimi Hendrix was arguably the greatest insturmentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
                 <span>
-                    <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i class="fa fa-ellipsis-h dots"></i>
                 </span>
             </div>
-            <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-            <span>
-                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-            </span>
         </div>
-    </div>
-    <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-        <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-        <div class="">
-            <p>Srishti Gupta</p>
-        </div>
+        <!-- post 3 ends here -->
 
-        <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-            <div class="block text-2xl pb-3 pt-4 ">
-                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+        <!-- post 4 starts here -->
+        <div class="post">
+            <div class="username">
+                <p>Jimi</p>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="title">
+                    <p>Hey there! This is post 4.</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa fa-trash delete-icon" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <p class="content">Jimi Hendrix was arguably the greatest insturmentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
                 <span>
-                    <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i class="fa fa-ellipsis-h dots"></i>
                 </span>
             </div>
-            <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-            <span>
-                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-            </span>
         </div>
-    </div>
-    <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-        <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-        <div class="">
-            <p>Srishti Gupta</p>
-        </div>
+        <!-- post 4 ends here -->
 
-        <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-            <div class="block text-2xl pb-3 pt-4 ">
-                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+        <!-- post 5 starts here -->
+        <div class="post">
+            <div class="username">
+                <p>Jimi</p>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="title">
+                    <p>Hey there! This is post 5.</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa fa-trash delete-icon" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <p class="content">Jimi Hendrix was arguably the greatest insturmentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
                 <span>
-                    <!-- TODO: Include Font Awesome icon for delete icon here -->
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i class="fa fa-ellipsis-h dots"></i>
                 </span>
             </div>
-            <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-            <span>
-                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-            </span>
         </div>
-    </div>
-    <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-        <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-        <div class="">
-            <p>Srishti Gupta</p>
-        </div>
-
-        <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-            <div class="block text-2xl pb-3 pt-4 ">
-                <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for delete icon here -->
-                </span>
+        <!-- post 5 ends here -->
+        <!-- TODO: Write code for delete post modal here -->
+        <div id="deletePostModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>Are you sure you want to delete this post?</p>
+                <div class="button-wrapper">
+                  <button class="btn btn-success" id="confirmDelete">Yes</button>
+                  <button class="btn btn-danger" id="cancelDelete">No</button>
+                </div>
+              </div>
             </div>
-            <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-            <span>
-                <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-            </span>
+          </div>
         </div>
     </div>
+    <!-- list of all posts ends here -->
+    </div>
+    <br><br>
+<!-- Jquery Files-->
+<!-- Core JS file -->
   </div>
-    <script src="Js\header.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="..\Js\header.js"></script>
+    <script src="..\Js\bloglist.js"></script>
 </body>
 
 </html>
