@@ -49,7 +49,6 @@ navigateToPost = postThread => {
     var author = post.querySelector(".username p").textContent.trim();
     var postTitle = post.querySelector(".title p").textContent.trim();
     var postContent = post.querySelector(".content").textContent.trim();
-    // Not used in this assigment.
     sessionStorage.setItem("author", author);
     sessionStorage.setItem("postTitle", postTitle);
     sessionStorage.setItem("postContent", postContent);
