@@ -2,11 +2,16 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="CSS\font.css">
-  <link rel="stylesheet" href="CSS\header.css">
-  <link rel="stylesheet" href="CSS\bloglist.css">
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/843f31a33f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="..\CSS\font.css">
+  <link rel="stylesheet" href="..\CSS\header.css">
+  <link rel="stylesheet" href="..\CSS\post.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <!-- TODO: Include Font Awesome file here -->
+  <script src="https://use.fontawesome.com/12e84c3aa6.js"></script>
+  <!-- TODO: Include Google Fonts file here -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
 </head>
@@ -14,7 +19,7 @@
 <body>
     <!-- TODO: Include code for header here -->
     <div class="header">
-        <div class="title"> <a id="Title" class="logo">ScriBBler</a>
+        <div class="title"> <span id="Title" class="logo">ScriBBler</span>
             <p class="tagline">Explore, Imagine, Create</p>
         </div>
         <div class="Buttons">
@@ -65,127 +70,37 @@
           </div>
         </div>
     </div>
-
-    <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
-
-    <!-- list of all posts starts here -->
-      <div class="flex space-x-8 m-8 ">
-        <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-            <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-            <div class="">
-                <p>Srishti Gupta</p>
-            </div>
-
-            <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-                <div class="block text-2xl pb-3 pt-4 ">
-                    <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p class="pb-4">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 1 ends here -->
-
-        <!-- post 2 starts here -->
-        <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-            <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-            <div class="">
-                <p>Colby Fayock</p>
-            </div>
-
-            <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-                <div class="block text-2xl pb-3 pt-4 ">
-                    <p>What is linting and how can it save you time?</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p class="pb-4">One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 2 ends here -->
-
-        <!-- post 3 starts here -->
-        <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-            <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-            <div class="">
-                <p>Yazeed Bzadough</p>
-            </div>
-
-            <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-                <div class="block text-2xl pb-3 pt-4 ">
-                    <p>How to Get More Views on Your Tech Blog</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p class="pb-4">If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 3 ends here -->
-
-        <!-- post 4 starts here -->
-      </div>
-      <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-          <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-          <div class="">
-                <p>Cedd Burge</p>
-            </div>
-
-            <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-                <div class="block text-2xl pb-3 pt-4 ">
-                    <p>How to write easily describable code</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p class="pb-4">When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
-                    leads to confusion when discussing the code.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 4 ends here -->
-
-        <!-- post 5 starts here -->
-        <div class="bg-gray-100 rounded-2xl flex items-center justify-around space-x-6">
-            <div class="absolute pl-96 ml-64 pb-28"><i class="fas fa-trash-alt"></i></div>
-            <div class="">
-                <p>Srishti Gupta</p>
-            </div>
-
-            <div class="bg-gray-200 rounded-r-2xl pl-6 pr-6">
-                <div class="block text-2xl pb-3 pt-4 ">
-                    <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
-                    <span>
-                        <!-- TODO: Include Font Awesome icon for delete icon here -->
-                    </span>
-                </div>
-                <p class="pb-4">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
-                    named xyz.</p>
-                <span>
-                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
-                </span>
-            </div>
-        </div>
-        <!-- post 5 ends here -->
+        <!-- Header part os done -->
 
         <!-- TODO: Write code for delete post modal here -->
+        <section>
+          <div class="posts-wrapper">
+                  <p class="post-title" id="postTitle"></p>
+                  <div class="author-edit-wrapper">
+                      <span id="author"></span>
+                      <button class="btn btn-danger saved btn-common" id="editPost">Edit <i class="fa fa-edit"></i></button>
+                  </div>
+                  <p class="post-content" id="postContent"></p>
+                  <div class="like-wrapper">
+                      <button class="btn btn-danger like-button btn-common"><i class="fa fa-thumbs-up"></i>Like</button>
+                      <p id="likeText">Be the first one to like this!</p>
+                  </div>
+                  <div class="comments-wrapper">
+                      <textarea name="comments" id="commentBox" placeholder="Leave a comment..." required></textarea>
+                      <br>
+                      <button class="btn btn-danger comment-button btn-common">Comment</button>
+                      <p class="all-comments-text">All Comments</p>
+                      <div id="commentsWrapper"></div>
+                  </div>
+              </div>
+          </section>
 
-    </div>
-      <script src="Js\header.js"></script>
+          </div>
+    <!-- Jquery Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="..\Js\header.js"></script>
+      <script src="..\Js\post.js"></script>
     <!-- list of all posts ends here -->
 </body>
 
