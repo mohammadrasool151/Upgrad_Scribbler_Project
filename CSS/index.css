@@ -12,18 +12,17 @@ a{
 }
 .Post_Button {
   background-color: #FFCD33;
+  border-color:#FBFADD;
+  border-style: solid;
+  color:black;
+  font-weight: bold;
+  font-size: small;
   padding-top:10px;
   padding-bottom: 10px;
   padding-right:15px;
   padding-left:15px;
-  margin:-14px auto;
   margin-right: 20px;
-  color:black;
   text-align: center;
-  font-weight: bold;
-  font-size: small;
-  border-color:#FBFADD;
-  border-style: solid;
 }
 
 .Post_Button:hover {
@@ -43,17 +42,17 @@ a{
 }
 
 .text-area {
-  height: 20em;
   background-color: #e6e6e6;
   border-color: #e6e6e6;
+  height: 20em;
   padding: 10px 0 0 10px;
 }
 
 .modal-contentPost {
-  width: 50%;
   background-color: #ffffff;
-  margin: auto;
   padding: 30px;
+  width: 50%;
+  margin: auto;
   border: 1px solid #888;
 }
 
@@ -61,8 +60,8 @@ a{
 .modal-Create {
   background-color: #68b313;
   color: #fff;
-  padding: 15px 0 15px 0;
   font-size: 1.2em;
+  padding: 15px 0 15px 0;
   margin-top: 30px;
   border: 0;
   cursor: pointer;
