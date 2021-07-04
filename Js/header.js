@@ -14,6 +14,7 @@ span.onclick = function ()
   // Close the modal, When the user clicks on <span> (x)
   modal.style.display = "none";
 }
+
 window.onclick = function (event)
 {
   // Close it,  When the user clicks anywhere outside of the modal
@@ -22,6 +23,15 @@ window.onclick = function (event)
     modal.style.display = "none";
   }
 }
+//open the modal
+openModal = modal => {
+    modal.style.display = "block";
+};
+
+//Close the modal
+closeModal = modal => {
+    modal.style.display = "none";
+};
 
 //functionality to signIn button
 var modal1 = document.getElementById("myModal1");
