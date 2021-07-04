@@ -34,7 +34,11 @@ window.addEventListener("click", function(event) {
 });
 
 cancelDelete.addEventListener("click", () => closeModal(deletePostModal));
-confirmDelete.addEventListener("click", () => deletePost());
+
+//if incase we wanna delte a post below comment would work for it.. all u need to do is to remove slashes..
+// note: on refresh every post will appear back as normal or initial
+
+//confirmDelete.addEventListener("click", () => deletePost());
 
 // Search the dots
 var dots = document.querySelectorAll(".dots");
