@@ -52,5 +52,6 @@ navigateToPost = postThread => {
     sessionStorage.setItem("author", author);
     sessionStorage.setItem("postTitle", postTitle);
     sessionStorage.setItem("postContent", postContent);
-    
+    window.location.href = "../html/post.html";
+
 };
